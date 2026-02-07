@@ -1,16 +1,47 @@
-## Hi there 👋
-
-<!--
-**Utsabkarki/Utsabkarki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Rose Day Gift</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+        }
+        .rose-container {
+            perspective: 1000px;
+        }
+        .rose {
+            width: 200px;
+            height: 200px;
+            background: red;
+            border-radius: 50%;
+            animation: spin 5s linear infinite;
+        }
+        @keyframes spin {
+            from { transform: rotateY(0deg); }
+            to { transform: rotateY(360deg); }
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="rose-container">
+        <div class="rose"></div>
+    </div>
+    <div class="message">
+        <p>Dear Sajina Pakhrin,</p>
+        <p>I'm truly sorry for everything. Happy Rose Day!</p>
+    </div>
+</body>
+</html>
